@@ -1,5 +1,5 @@
 jwt:
   expiration: 1
-  secretKey: xyi2jrLYoynEuFu4GkleEmE+37HnzSBc8DQT55ZTk
+  secretKey: xyi2jrLYoynEuFu4GkleEmE+37HnzSBc8DQT55ZTkjlHnViis8VPUO5n5Uak35vrhPhXqWDwFMbyrwCgD7SpVw
   expirationRt: 288000
   secretKeyRt: CXxKRyJIO7ZwU5sIzgxzNaF2mvjU7QMZIIP3o+QhtlpDay2zgnT0vzohomdJYOS1eDqy2toe5hD0az32EbXl0A
