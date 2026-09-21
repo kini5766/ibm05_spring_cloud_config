@@ -4,6 +4,12 @@ spring:
     url: jdbc:postgresql://localhost:5432/chohj_member
     username: postgres
     password: admin
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
   data:
     redis:
       host: localhost

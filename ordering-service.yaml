@@ -6,6 +6,12 @@ spring:
     url: jdbc:mariadb://localhost:3306/chohj_ordering
     username: root
     password: admin
+  jpa:
+    database-platform: org.hibernate.dialect.MariaDBDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 resilience4j:
   circuitbreaker:
     instances:
